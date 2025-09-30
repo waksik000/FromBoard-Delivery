@@ -1,0 +1,152 @@
+.footer{
+    background-color: #111827;
+}
+
+.description__img{
+    max-width: 50px;
+    max-height: 74px;
+}
+
+.description__img img{
+    width: 50px;
+    height: 74px;
+}
+
+.footer__content{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 207px;
+}
+
+.content__logo{
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+    
+}
+
+.logo__description{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.description__text h2{
+    font-family: "Formular Bold";
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #F9FAFB;
+}
+
+.logo__par p{
+    font-family: "Formular";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #F9FAFB;
+}
+
+
+.footer__nav ul{
+    display: flex;
+}
+
+
+
+
+.footer__nav ul{
+    display: flex;
+    gap: 24px;
+
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Formular Bold";
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer__nav ul li a{
+    text-decoration: none;
+    color: #F9FAFB;
+}
+
+.footer__nav ul li a:hover{
+    color: #8B5CF6;
+}
+
+
+
+.footer__contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.footer__contacts h2{
+    font-family: "Formular";
+    font-weight: 900;
+    font-style: Black;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+
+    color: #F9FAFB;
+}
+
+.footer__contacts h3{
+    font-family: "Formular";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+
+    color: #F9FAFB;
+}
+
+
+.footer__copyright{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+
+    padding-top: 24px;
+    padding-bottom: 40px;
+
+
+    text-align: center;
+}
+
+.copyright__top p{
+    font-family: "Formular";
+    font-weight: 300;
+    font-style: Light;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #4B5563;
+}
+
+.copyright__bot{
+    font-family: "Formular";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+
+
+    color: #6B7280;
+
+}

@@ -1,0 +1,146 @@
+.get-started__container{
+    display: flex;
+    gap: 24px;
+    margin-top: 72px;
+    justify-content: space-between;
+}
+
+.get-started__description{
+    width: 756px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.description__content h2{
+    font-family: "Formular Bold";
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+    color: #111827;
+}
+
+.description__content p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #111827;
+
+    padding-top: 12px;
+}
+
+.description__img1{
+    width: 756px;
+}
+.description__img1 img{
+    height: 450px;
+    width: 756px;
+    border-radius: 16px;
+}
+
+/*--------------------- CALCULATOR ---------------------- */
+
+.get-started__calculator{
+    background-color: #F9FAFB;
+    width: 756px;
+
+    border-radius: 16px;
+}
+
+.calculator__content{
+    padding: 24px;
+}
+
+.calculator__content h2{
+    font-family: "Formular Bold";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+
+.calculator__content p{
+    padding-top: 16px;
+    font-family: "Formular";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    word-break: break-word;
+}
+
+.calculator__form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.form__direct{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    
+}
+
+.form__left{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+
+.form__right{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#name{
+    border-radius: 4px;
+    width: 496px;
+    height: 48px;
+    border: #111827 solid 2px;
+
+    margin-top: 28px;
+    margin-bottom: 24px;
+
+    padding-left: 12px;
+}
+
+.form__left input{
+    border-radius: 4px;
+    width: 236px;
+    height: 48px;
+    border: #111827 solid 2px;
+
+    padding-left: 12px;
+}
+
+.form__right input{
+    border-radius: 4px;
+    width: 236px;
+    height: 48px;
+    border: #111827 solid 2px;
+
+    padding-left: 12px;
+}
+
+.form__btn{
+    padding-bottom: 26px;
+    padding-top: 26px;
+}
+
+.form__btn button{
+    background-color: #8B5CF6;
+    border-radius: 4px;
+    color: #F9FAFB;
+    width: 496px;
+    height: 44px;
+
+    font-family: "Formular Bold";
+    font-weight: 400;
+    font-size: 16px;
+}

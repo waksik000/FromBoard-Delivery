@@ -1,0 +1,73 @@
+.reviews__container h2{
+    margin-top: 72px;
+    text-align: center;
+
+
+    font-family: "Formular Bold";
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #111827;
+}
+
+
+
+
+.reviews__windows{
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    gap: 24px;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.windows{
+    background-color: #F9FAFB;
+    border-radius: 16px;
+    width: 626px;
+    height: 370px;
+}
+
+.windows h3{
+    margin-top: 32px;
+    margin-left: 43px;
+    margin-right: 43px;
+    margin-bottom: 94px;
+
+
+    font-family: "Formular Bold";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #111827;
+}
+
+.windows__content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.windows__par1{
+    padding-left: 43px;
+}
+
+.windows__par2{
+    position: relative;
+    bottom: 32px;
+    padding-left: 43px;
+}
+
+.windows__content p{
+    color: #6B7280;
+
+    font-family: "Formular";
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+

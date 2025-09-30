@@ -1,0 +1,61 @@
+.garanty__proof ul{
+    display: flex;
+}
+
+.garanty__title h2{
+    text-align: center;
+    font-family: "Formular Bold";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #111827;
+}
+
+.garanty__title p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111827;
+
+    padding-top: 12px;
+}
+
+.garanty__proof{
+    margin-top: 24px;
+}
+
+.garanty__proof ul{
+    display: flex;
+    gap: 24px;
+}
+
+.garanty__proof ul li div h3{
+    text-align: center;
+    font-family: "Formular Bold";
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.garanty{
+    margin-top: 72px;
+}
+
+.garanty__btn{
+    background-color: #8B5CF6;
+    border-radius: 12px;
+    width: 315px;
+    height: 56px;
+
+    color: #F9FAFB;
+    font-family: "Formular";
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.garanty__button{
+    margin-top: 36px;
+    text-align: center;
+} 

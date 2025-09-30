@@ -1,0 +1,66 @@
+.benefits{
+    height: 392px;
+}
+
+.benefits__container h2{
+    margin-top: 72px;
+    text-align: center;
+    margin-bottom: 24px;
+
+    font-family: "Formular Bold";
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+    color: #111827;
+}
+
+.list__top ul{
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+}
+
+.list__top ul li{
+    display: flex;
+    gap: 12px;
+}
+
+.list__item{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.list__item h3{
+    font-family: "Formular Bold";
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.list__item p{
+    font-family: "Formular";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.list__bot ul{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.list__bot ul li{
+    display: flex;
+    gap: 12px;
+}
+
+.benefits__list{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+

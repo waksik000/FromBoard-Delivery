@@ -1,0 +1,130 @@
+.header{
+    background-color: white;
+    max-width: 1920px;
+    width: 1920px; 
+
+    
+    
+    
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+}
+
+
+.header__top{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Formular Bold";
+    line-height: 32px;
+    color: #111827;
+}
+
+.logo__img{
+    max-width: 50px;
+    max-height: 74px;
+}
+
+.logo__img img{
+    width: 50px;
+    height: 74px;
+}
+
+
+
+/*---------------- NAVIGATION -------------*/
+
+
+
+.header__nav ul{
+    display: flex;
+    gap: 24px;
+
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Formular Bold";
+    line-height: 24px;
+    color: #000000;
+}
+
+.header__nav ul li a{
+    text-decoration: none;
+    color: #111827;
+}
+
+.header__nav ul li a:hover{
+    color: #8B5CF6;
+}
+
+
+/* -------------- RIGHT ------------- */
+
+.header__bot{
+    display: flex;
+    gap: 24px;
+}
+
+.contacts__content{
+    display: flex;
+    gap: 24px;
+}
+
+.contacts__desc{
+    font-family: "Formular";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #111827;
+}
+
+
+.contacts__numb h2{
+    font-family: "Formular Bold";
+    font-weight: 900;
+    color: #111827;
+    line-height: 40px;
+    font-size: 36px;
+}
+
+.contacts__numb h3{
+    font-weight: 300;
+    font-family: "Formular Light";
+    font-size: 24px;
+    line-height: 32px;
+    color: #111827;
+}
+
+.header__btn{
+    display: flex;
+    justify-self: flex-end;
+
+    padding-top: 24px;
+}
+
+.header__btn button{
+    background-color: #8B5CF6;
+    width: 196px;
+    height: 44px;
+    border-radius: 4px;
+
+    color: #F9FAFB;
+    font-weight: 700;
+    font-family: "Formular Bold";
+    line-height: 24px;
+    font-size: 16px;
+}
