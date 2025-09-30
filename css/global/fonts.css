@@ -1,14 +1,15 @@
 @font-face {
     font-family: "Formular bold";
-    src: url("/FromBoard Delivery/fonts/Formular-Bold.ttf");
+    src: url("/fonts/Formular-Bold.ttf");
 }
 
 @font-face {
     font-family: "Formular";
-    src: url("/FromBoard Delivery/fonts/Formular.ttf");
+    src: url("/fonts/Formular.ttf");
 }
 
 @font-face {
     font-family: "Formular Light";
-    src: url("/FromBoard Delivery/fonts/Formular-Light.ttf");
+    src: url("/fonts/Formular-Light.ttf");
+
 }
